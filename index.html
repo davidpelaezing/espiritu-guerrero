@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./app.css">
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG7YVbvZ_2xqfSg9YJd1RmLzlBbz-sf6Y&callback=console.debug&libraries=maps,marker&v=beta">
+        </script>
+    <title>Espiritu guerrero - Comunidad terapeutica</title>
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#inicio">
+                <img src="./img/iconx/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes_somos">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#que_hacemos">Que hacemos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nuestro_equipo">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sede">Sede</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <!-- Inicio, fondo completo logo y slogan de espiritu guerrero -->
+    <section id="inicio">
+        <div class="vh-100 d-flex justify-content-center align-items-center ">
+            <div class="text-center animate__animated animate__fadeIn">
+                <img src="./img/iconx/logo.png" class="mx-auto d-block logo-principal" alt="Logo de esiritu guerrero">
+                <h1 class="titulo">Espíritu Guerrero</h1>
+                <p class="slogan">Una decisión para tu vida</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenido de la web -->
+    <main class="mb-5">
+        <div class="container">
+
+            <!-- Quienes somos -->
+            <div id="quienes_somos">
+                <div class="row">
+                    <div class="col-12 col-md-8 mx-auto text-center">
+                        <h2 class="display-5 mb-4">¿ Quienes somos ?</h2>
+                        <p>Somos una comunidad que trabaja en pro de la disminución del impacto de las
+                            adicciones, especialmente
+                            el abuso de sustancias psicoactivas. Dignificamos y visibilizamos a las personas que
+                            padecen
+                            el
+                            flagelo de las dependencias como seres humanos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quienes somos -->
+            <hr class="divider shadow" id="que_hacemos">
+            <h2 class="text-center display-5 mb-4">¿ Que hacemos ?</h2>
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <div class="text-center">
+                        <img src="./img/info/sensibilizacion/imagen_1.JPG" class="rounded shadow img-que-hacemos mb-3"
+                            alt="...">
+                        <h5>Sensibilización - experiencia vivencial</h5>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#sensibilizacionModal">Leer mas ...</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="sensibilizacionModal" tabindex="-1"
+                            aria-labelledby="sensibilizacionModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="sensibilizacionModalLabel">Sensibilización -
+                                            experiencia vivencial</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/info/sensibilizacion/imagen_2.JPG"
+                                            class="rounded shadow img-que-hacemos mb-5" alt="">
+                                        <div class="text-start">
+
+                                            <p>La vivencia terapeutica como estrategia de sensibilizacion sobre la
+                                                magnitud
+                                                del problema de las dependencias, es una herramienta que se puede
+                                                desarrollar en cualquier ámbito social, ya que esta dirigido a personas
+                                                que
+                                                no consumen drogas ni tienen problemas de dependencia, pero que son
+                                                vitales
+                                                en su intervención debido a su cercanía con ambientes donde puede ser
+                                                propicio tener habilidades para ayudar a una persona que si las padece.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <div class="text-center">
+                        <img src="./img/info/prevencion/imagen_1.jpeg" class="rounded shadow img-que-hacemos mb-3"
+                            alt="...">
+                        <h5>Prevención</h5>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#prevencionModal">Leer mas ...</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="prevencionModal" tabindex="-1"
+                            aria-labelledby="prevencionModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="prevencionModalLabel">Prevención</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/info/prevencion/imagen_2.jpeg"
+                                            class="rounded shadow img-que-hacemos mb-5" alt="">
+                                        <div class="text-start">
+                                            <h2>¿ A quien esta dirigido ?</h2>
+                                            <p>colegios, colectivos, grupos, comunidades, empresas.</p>
+                                            <h2>Consiste en :</h2>
+                                            <p>desarrollar estrategias que disminuyan la posibilidad de que las personas
+                                                generen dependencias en un ambiente especifico, es decir, reducir los
+                                                factores de riesgo y potenciar los factores de proteccion </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <div class="text-center">
+                        <img src="./img/info/internamiento/imagen_2.JPG" class="rounded shadow img-que-hacemos mb-3"
+                            alt="...">
+                        <h5>Intervención directa (internamiento)</h5>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#internamientoModal">Leer mas ...</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="internamientoModal" tabindex="-1"
+                            aria-labelledby="internamientoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="internamientoModalLabel">Intervención directa
+                                            (internamiento)</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/info/internamiento/imagen_3.JPG"
+                                            class="rounded shadow img-que-hacemos mb-5" alt="">
+                                        <div class="text-start">
+                                            <p>El tratamiento bajo la modalidad de internamiento está dirigido a
+                                                personas
+                                                que han afectado significativamente sus áreas de desempeño (familiar,
+                                                social, laboral, académica, afectiva, económica, salud física y mental),
+                                                y que la manifestación de su adicción no se controla por sus propios
+                                                medios, generando dificultades en su entorno y en las diferentes areas
+                                                en las que se desempeña.
+                                                Personas que prometen a sus familias y a si mismos que no van a volver a
+                                                consumir y recurren de nuevo al consumo generando culpa, sensación de
+                                                vacío, agobio, y deseo intenso de dejar de consumir sin poder lograrlo.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="text-center">
+                        <img src="./img/info/ambulatorio/imagen_3.jpg" class="rounded shadow img-que-hacemos mb-3"
+                            alt="...">
+                        <h5>Intervención indirecta (ambulatorio)</h5>
+                        <button class="btn btn-sm btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#ambulatorioModal">Leer mas ...</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="ambulatorioModal" tabindex="-1"
+                            aria-labelledby="ambulatorioModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="ambulatorioModalLabel">Intervención indirecta
+                                            (ambulatorio)</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/info/ambulatorio/imagen_1.JPG"
+                                            class="rounded shadow img-que-hacemos mb-5" alt="">
+                                        <div class="text-start">
+                                            <h2>¿ A quien esta dirigido ?</h2>
+                                            <p>
+                                                Está dirigido a personas que han desarrollado una conducta adictiva pero
+                                                aún conservan sus áreas de desempeño (área familiar, laboral, social,
+                                                académica, afectiva, económica, salud mental y física) sin afectaciones
+                                                o apenas comienzan a deteriorarse.
+                                                Es una estrategia que permite acompañar a la persona sin desvincularla
+                                                de su familia y actividades cotidianas.
+                                            </p>
+                                            <h2>Consiste en :</h2>
+                                            <p>¿El tratamiento ambulatorio es una estrategia de atención que pretende no
+                                                aislar a la persona de su núcleo de origen.
+                                                Establece atenciones y acompañamiento desde diferentes áreas para
+                                                facilitar el cambio de conductas adictivas y conservar las actividades
+                                                cotidianas de la persona.</p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nuestro equipo -->
+            <hr class="divider shadow" id="nuestro_equipo">
+            <h2 class="text-center display-5 mb-4">Nuestro equipo</h2>
+            <div class="row nuestro_equipo">
+                <div class="col-12 text-center">
+                    <img src="./img/info/equipo/zuleta.jpeg" class="img-thumbnail shadow img-equipo" alt="">
+                    <h4>Santiago Zuleta</h4>
+                    <p>Director y trabajador social</p>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="./img/info/equipo/angie.jpeg" class="img-thumbnail shadow img-equipo" alt="">
+                    <h4>Angie Castaño</h4>
+                    <p>Coordinadora de proyectos</p>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="./img/info/equipo/mario.jpeg" class="img-thumbnail shadow img-equipo" alt="">
+                    <h4>Mario Julio</h4>
+                    <p>Psicologo clinico</p>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="./img/info/equipo/martha.jpg" class="img-thumbnail shadow img-equipo" alt="">
+                    <h4>Marta Alvarez</h4>
+                    <p>Acompañamiento espiritual</p>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="./img/info/equipo/harlem.jpg" class="img-thumbnail shadow img-equipo" alt="">
+                    <h4>Harlem Rendon</h4>
+                    <p>Operador, educador terapeutico</p>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="./img/info/equipo/tomas.jpg" class="img-thumbnail shadow img-equipo" alt="">
+                    <h4>Tomas benjumea</h4>
+                    <p>Asistente facilitador</p>
+                </div>
+            </div>
+
+            <!-- Sede -->
+            <hr class="divider shadow" id="sede">
+            <h2 class="text-center display-5 mb-4">Nuestra sede</h2>
+            <div id="sedeCarousel" class="carousel slide shadow" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/info/sede/1.jpeg" class="d-block w-100" alt="foto de zona de piscina">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/info/sede/3.jpeg" class="d-block w-100" alt="foto zona de ante jardin">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/info/sede/4.jpeg" class="d-block w-100" alt="foto zona de cabaña y piscina">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/info/sede/5.jpeg" class="d-block w-100" alt="foto de la casa desde la piscina">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/info/sede/6.jpeg" class="d-block w-100" alt="foto de zona de cabaña y piscina">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/info/sede/8.jpeg" class="d-block w-100" alt="foto de la casa finca">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/info/sede/9.jpeg" class="d-block w-100" alt="foto zona de entrada">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/info/sede/11.jpeg" class="d-block w-100" alt="foto zona de cancha de futbol">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/info/sede/14.jpeg" class="d-block w-100" alt="foto zona del billar">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#sedeCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#sedeCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+            <hr class="divider shadow" id="servicios">
+            <h2 class="text-center display-5 mb-4">Servicios</h2>
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Tratamiento psicoterapeutico para las adicciones</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Terapia personal, familiar y social</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Pruebas toxicológicas para detección de sustancias</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Acompañamiento psicoterapeutico personal y familiar en tratamiento y post tratamiento</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Terapia educativa</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Meditación trascendental</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Hidroterapia tecnica watsu</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Taller de manualidades y ceramica</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Terapia deportiva</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Fortalecimiento del carácter</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="d-flex align-items-center animate__animated animate__fadeInLeft">
+                        <img src="./img/iconx/logo.png" class="logo-servicios" alt="Logo de espiritu guerrero">
+                        <h3>Psicologia clínica</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicios
+            <h2 class="text-center display-5 mb-4">Servicios</h2>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <article class="text-center">
+                        <img src="./img/info/undraw_medical_research_qg4d.svg"
+                            alt="test de orina para la detección de drogas">
+                        <h3>Aplicación test de orina</h3>
+                        <p>La prueba consiste en analizar una muestra de orina de la persona interesada. La muestra se
+                            debe
+                            recoger en un recipiente estéril a primera hora de la mañana. Antes de orinar se debe
+                            limpiar
+                            los
+                            genitales con agua y jabón y aclarar con abundante agua.
+
+                            Al recoger la muestra es importante desechar tanto la primera como la última parte de la
+                            micción.
+                            Una vez se tenga la muestra se debe entregar en el laboratorio lo antes posible y, en ningún
+                            caso,
+                            pasadas más de 4 horas.</p>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <article class="text-center">
+                        <img src="./img/info/undraw_educator_re_ju47.svg"
+                            alt="Sensibilización y prevención del consumo de spa">
+                        <h3>Sensibilización y prevención del consumo de spa</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quasi reprehenderit quidem
+                            maxime, harum nemo quo at debitis iste ipsum corrupti officiis repudiandae praesentium
+                            blanditiis dolor, omnis ipsa quos. Voluptatem.</p>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <article class="text-center">
+                        <img src="./img/info/undraw_lives_matter_38lv.svg" alt="Trabajo social con familias">
+                        <h3>Trabajo social con familias</h3>
+                        <p>Es la estrategia diseñada para favorecer la integralidad en el proceso del usuario, permite
+                            que
+                            la familia se integre de manera sana y consciente al proceso y se determinen herramientas
+                            para
+                            modificar o mejorar la dinámica familiar</p>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <article class="text-center">
+                        <img src="./img/info/undraw_goal_-0-v5v.svg" alt="Terapia Deportiva">
+                        <h3>Terapia Deportiva</h3>
+                        <p>La actividad a través del deporte favorece el proceso de recuperación, dado que aporta al
+                            usuario
+                            el mejoramiento en su estado físico y facilita el proceso de desintoxicación. En nuestro
+                            diario
+                            vivir, contamos con actividades deportivas como fútbol, voleibol, micro fútbol, natación.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <article class="text-center">
+                        <img src="./img/info/undraw_interview_re_e5jn.svg" alt="psicología Clinica">
+                        <h3>Psicología Clinica</h3>
+                        <p>Nos enfocamos en el abordaje del usuario desde el acompañamiento psicológico a través del
+                            modelo
+                            de la comunidad terapéutica, evaluando e interviniendo factores causales en el desarrollo de
+                            la
+                            adicción además de otros factores asociados, dirigidos a la modificación conductual, el
+                            manejo
+                            de emociones, pensamientos y la construcción de herramientas para manejo de ansiedad,
+                            solución
+                            de conflictos y en general, todo lo que favorezca la construcción de un estilo de vida desde
+                            la
+                            recuperación.</p>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <article class="text-center">
+                        <img src="./img/info/undraw_instruction_manual_cyae.svg" alt="taller de manualidades cerámica">
+                        <h3>Taller de Manualidades Cerámica</h3>
+                        <p>En esta estrategia optamos por reconocer los beneficios del arte como terapia, la cual
+                            favorece
+                            en el usuario el reconocimiento de habilidades e incluso aporta a la estabilización
+                            emocional.
+                            Contamos con talleres de cerámica y otras actividades manuales.</p>
+                    </article>
+                </div>
+
+            </div>
+            -->
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <section class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-4">
+
+                    <div class="d-flex mb-2">
+                        <img src="./img/iconx/svg.png" class="logo-unidad-terapeutica me-2"
+                            alt="Logo de espiritu guerrero">
+                        <h1 class="text-blanco">Espíritu guerrero, comunidad terapéutica</h1>
+                    </div>
+                    <p class="text-blanco">Pagina informativa (v1.0), todos los derechos reservados, web desarrollada
+                        por
+                        <span class="creditos">PelaezDev</span>
+                    </p>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <h3 class="text-blanco mb-3">Nuestras redes sociales</h3>
+                    <a href="https://www.facebook.com/profile.php?id=100063601597981&mibextid=kFxxJD" target="_blank"
+                        class="me-1"><i class="fa-brands fa-facebook-f icon-media"></i></a>
+                    <a href="https://www.instagram.com/espiritu.guerrero.ct?igsh=aGEwMnE4MjYzMmQ4" target="_blank"
+                        class="me-1"><i class="fa-brands fa-instagram icon-media"></i></a>
+                    <a href="https://www.tiktok.com/@esprituguerrero?_t=8ii1vAQgu1N&_r=1" target="_blank" class=""><i
+                            class="fa-brands fa-tiktok icon-media"></i></a>
+                    <a href="https://wa.me/+573006834076?text=¡Hola! Estoy interesado en sus servicios." target="_blank"
+                        class="me-1"><i class="fa-brands fa-whatsapp icon-media"></i></a>
+                </div>
+
+                <div class="col-12">
+                    <h3 class="text-blanco"><i class="fa-solid fa-location-dot"></i> Ubicación</h3>
+                    <p class="text-blanco">Girardota, limonar, ...</p>
+                    <div class="mapa">
+                        <gmp-map center="6.403661251068115,-75.48120880126953" zoom="17" map-id="DEMO_MAP_ID">
+                            <gmp-advanced-marker position="6.403661251068115,-75.48120880126953"
+                                title="Espíritu guerrero">
+                            </gmp-advanced-marker>
+                        </gmp-map>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/+573006834076?text=¡Hola! Estoy interesado en sus servicios." target="_blank"
+        class="btn btn-whatsapp shadow">
+        <i class="fa-brands fa-whatsapp icon-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ea5bc8233f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

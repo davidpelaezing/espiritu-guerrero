@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Silkscreen&display=swap');
+
+body {
+    background-color: #F8F9F9;
+}
+
+section {
+    background: linear-gradient(to bottom right, #515A5A, #34495E);
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+h2 h3 h4 h5 h6 {
+    color: #1B2631;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #1B2631;
+}
+
+.logo-principal {
+    width: 14rem;
+    height: auto;
+}
+
+.titulo {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #D6DBDF;
+}
+
+.slogan {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #D6DBDF;
+}
+
+.logo-servicios {
+    width: 50px;
+    height: auto;
+}
+
+.logo-unidad-terapeutica {
+    width: 60px;
+    height: auto;
+}
+
+.text-blanco {
+    color: #D6DBDF;
+}
+
+.mapa {
+    width: 100%;
+    height: 280px;
+}
+
+.creditos {
+    font-family: 'Silkscreen', sans-serif;
+}
+
+article img {
+    width: 200px;
+    height: 200px;
+}
+
+.icon-media {
+    width: 35px;
+    height: 35px;
+    color: #D6DBDF;
+}
+
+.carousel-item img {
+    max-height: 450px;
+}
+
+.btn-whatsapp {
+    padding: 8px;
+    border-color: #25D366;
+    background-color: #25D366;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+.icon-whatsapp {
+    color: #000;
+    width: 30px;
+    height: 30px;
+}
+
+#inicio {
+    margin-bottom: 5rem;
+}
+
+.img-que-hacemos {
+    width: 320px;
+    height: 200px;
+}
+
+.img-equipo {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 1rem;
+}
+
+.nuestro_equipo img {
+    border-radius: 50%;
+}
+
+.divider {
+    margin: 3.5rem 0;
+}
